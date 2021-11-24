@@ -28,7 +28,7 @@ aimos 2021
 
 ## Rose Franzen
 
-![Rose Franzen staff photo](media/RoseF.jpg)
+![Rose Franzen staff photo](media/RoseF.png)
 
 </div>
 
