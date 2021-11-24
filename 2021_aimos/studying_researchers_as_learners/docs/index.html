@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+    <title>Studying researchers as learners</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/night.css" id="theme" />
+    <link rel="stylesheet" href="./css/highlight/zenburn.css" />
+    <link rel="stylesheet" href="plugin/accessibility/helper.css" />
+
+
+
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template">
+
+## Studying researchers as learners
+
+What factors impact educational engagement throughout a scientific career?
+
+aimos 2021
+</script></section><section  data-markdown><script type="text/template">
+<div id="right">
+
+## Rose Hartman
+
+![Rose Hartman staff photo](media/RoseH.jpg)
+
+</div>
+
+<div id="left">
+
+## Rose Franzen
+
+![Rose Franzen staff photo](media/RoseF.png)
+
+</div>
+
+<aside class="notes"><p>Yes, we&#39;re both named Rose. Sorry about that.</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Welcome!
+
+Please introduce yourself, and share what drew you to this discussion session.
+
+<aside class="notes"><p>Introductions in the full group.</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Why does it matter how researchers learn?
+
+<aside class="notes"><p>Overview here, a la abstract.</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+
+## Format for today
+
+- Discussion prompts
+- Breakout rooms
+- Return to full group
+- Repeat!
+
+<aside class="notes"><p>Our role is to synthesize, identify emerging themes and potential conflicts to resolve, etc. We&#39;re not going to be driving the discussion; rather, we&#39;re eager to hear what you all have to say, and want to let that shape the direction of our discussion!</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+What kinds of learning do researchers engage in?
+
+What motivates them to spend time on learning?
+</script></section><section  data-markdown><script type="text/template">
+How do we measure other kinds of learners?
+
+What constructs do we assess?
+
+Which of these apply to a researcher population, and which might not?
+</script></section><section  data-markdown><script type="text/template">
+Think of papers you've read that included data about researchers. What did they measure?
+</script></section><section  data-markdown><script type="text/template">
+How might a researcher's motivation and constraints as learner differ based on...
+
+- career stage
+- institutional affiliation or country
+- job description (what other than research do they do?)
+- area of research specialty
+- demographic considerations (family status, disability, membership in an underrepresented or marginalized group, income, preferred language(s), etc.)
+- ?
+
+<aside class="notes"><p>Researchers are a heterogenous group, with diverse interests, needs, challenges, and constraints.</p>
+</aside></script></section><section  data-markdown><script type="text/template">
+## Keep in touch!
+
+hartmanr1@chop.edu
+
+franzenr@chop.edu
+
+<style>
+
+#left {
+    margin: 10px 0 15px 20px;
+    float: left;
+    text-align: center;
+    z-index:-10;
+    width:48%;
+    font-size: 0.85em;
+    line-height: 1.5;
+}
+#right {
+    margin: 10px 0 15px 0;
+    float: right;
+    text-align: center;
+    z-index:-10;
+    width:48%;
+    font-size: 0.85em;
+    line-height: 1.5;
+}
+
+#dark_back {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 20px;
+}
+
+</style>
+</script></section></div>
+    </div>
+
+    <script src="./dist/reveal.js"></script>
+
+    <script src="./plugin/markdown/markdown.js"></script>
+    <script src="./plugin/highlight/highlight.js"></script>
+    <script src="./plugin/zoom/zoom.js"></script>
+    <script src="./plugin/notes/notes.js"></script>
+    <script src="./plugin/math/math.js"></script>
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath
+        ]
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"transition":"none","navigationMode":"linear","controlsTutorial":false}, queryOptions);
+    </script>
+
+
+    <script>
+      Reveal.initialize(options);
+    </script>
+    <script>
+    Reveal.initialize({
+    	dependencies: [
+                    { src: 'plugin/accessibility/helper.js', async: true, condition: function() { 
+                    	return !!document.body.classList; 
+                    } 
+                }]
+    });
+    </script>
+  </body>
+</html>
