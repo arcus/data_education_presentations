@@ -50,7 +50,9 @@ Reveal.initialize({
 </script>
 ```
 
-Now when you use reveal-md, the a11y plugin should be active. 
+Now when you use reveal-md, the a11y plugin should be active.
+
+If you'd like to confirm it's working, launch a presentation from terminal, and right-click inspect to view the underlying HTML. Each slide section should have an aria label (e.g., aria-label = "Slide 1").
 
 ## Workflow
 
