@@ -1,1 +1,8 @@
 # Studying researchers as learners: What factors impact educational engagement throughout a scientific career?
+
+[View presentation here](https://rosemm.github.io/studying_researchers_as_learners/#/).
+
+## Abstract:
+
+Because open science and reproducibility represent a recent paradigm shift, the associated behaviors differ from what many researchers were taught during their formal training. As a result, the spread of open science practices necessarily relies upon researchers engaging in continued education. Many researchers have already taken it upon themselves to self-educate on these important topics, and as incentives shift slowly to place more value on reproducible methods, more will continue to do so. Despite this, our understanding of researchers as students is decidedly limited. Of the few studies that exist characterizing researchers and scientists in their capacity as learners, most focus exclusively on those still in graduate school or med school. Widespread culture change in the sciences will require researchers at every career level --- not just students --- to dedicate precious time to studying new methods and tools. Understanding the needs, values, constraints, and motivations of this unique body of learners will be critical to designing successful educational interventions for them.
+We propose a discussion session around measurement of constructs relevant to researchers as learners. Which factors impact motivation to continue study? Which characteristics can be used to build productive communities of practice, helping to sustain long term commitment? What do we need to know about a researcher to match them to appropriate and effective educational content to move them on their path toward open science?
