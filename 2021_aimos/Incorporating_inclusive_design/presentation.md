@@ -64,9 +64,17 @@ Note: Materials hosted on GitHub, allowing individuals to further customize to t
 
 ### Resources
 
-- [Web Content Accessibility Guidelines Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/)
-- [United Kingdom Home Office Accessible Design Posters](https://ukhomeoffice.github.io/accessibility-posters/posters/accessibility-posters.pdf)
-- Inclusive Design Research Centre's [Inclusive Design Guide](https://guide.inclusivedesign.ca/)
+<ul class="small">
+<li><a href="https://www.w3.org/WAI/WCAG21/quickref/">Web Content Accessibility Guidelines Quick Reference</a></li>
+<li><a href="https://ukhomeoffice.github.io/accessibility-posters/posters/accessibility-posters.pdf">United Kingdom Home Office Accessible Design Posters</a></li>
+<li>Inclusive Design Research Centre&#39;s <a href="https://guide.inclusivedesign.ca/">Inclusive Design Guide</a>, especially <a href="https://guide.inclusivedesign.ca/activities/inclusive-design-mapping/">the inclusive design mapping activity</a></li>
+<li><a href="https://linktr.ee/eejackson">Liz Jackson</a></li>
+<li><a href="https://user2021.r-project.org/blog/2021/11/04/accessibility_interview_liz_hare/">Liz Hare</a></li>
+<li><a href="https://github.com/dataviza11y/resources">dataviza11y resources</a></li>
+<li><a href="https://github.com/ajrgodfrey/LetsUseRNow">LetsUseRNow</a></li>
+<li><a href="https://arxiv.org/abs/1909.05118">Sociotechnical Considerations for Accessible Visualization Design</a></li>
+<li><a href="https://blindcomputing.org/">blind-computing</a></li>
+</ul>
 
 Note: Not nearly enough time to go over all of these -- encourage to check out, link to slides provided.
 ---
@@ -82,3 +90,11 @@ Note: While there are teams currently working to improve the accessibility of bo
 ### Thank You
 Rose Franzen: franzenr@chop.edu
 Rose Hartman: hartmanr1@chop.edu
+
+<style>
+
+.small {
+  font-size: 70%;
+}
+
+</style>
