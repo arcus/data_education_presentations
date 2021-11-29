@@ -48,17 +48,6 @@ Note: Materials hosted on GitHub, allowing individuals to further customize to t
 
 ---
 
-### Implementation process
-- Concrete documentation of standards
-  - QA process for each module prior to release
-- Ease of collaboration + future improvements
-  - Open source
-
-
-Note: QA checklist. Open source not only allows for improvements
-
----
-
 ### Resources
 
 - [Web Content Accessibility Guidelines Quick Reference](https://www.w3.org/WAI/WCAG21/quickref/)
