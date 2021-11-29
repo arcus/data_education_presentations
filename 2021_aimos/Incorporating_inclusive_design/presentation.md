@@ -20,8 +20,8 @@ Note: In the process of developing a self-paced, modular data science education 
 #### Inclusive Design
 Building to be as universally usable in default state without the need for additional adaptations or solutions
 
-#### Accessibility
-Beyond being technically possible to access the materials, reasonably feasible for an individual to engage with content without encountering inordinate burdens
+#### Accessible
+Reasonably feasible for an individual to engage with content without encountering inordinate burdens.
 
 Note: within the context of our talk, this is what we mean. Not necessarily "formal" definitions
 Accessibility and inclusive design are tall orders. While we want to help correct the history of barriers that have kept interested individuals from learning about and participating in this community, we also acknowledge that we are outsiders to the field of accessibility. Our goal today is to share a bit of what we've done so far in hopes that it oculd help someone else looking to make inclusive materials, but also to learn from you. Please feel free to chime in the chat or during Q&A with suggestions.
@@ -43,15 +43,19 @@ Wherever possible, we've built in flexibility. Accessibility is not a monolith, 
 
 ---
 
-### Tools
+### Tools: Liascript
 - Liascript: a markdown-parser for creating courseware
   - Integrated text-to-speech functionality
   - Learner control over text size, colors, dark mode
   - Custom CSS
 
-- Reveal-md: presentation slides from markdown
-  - [Accessibility plugin](https://github.com/marcysutton/reveal-a11y) to add section labels to html
-  - Custom CSS
+---
+
+### Tools: GitHub
+
+- GitHub: beyond transparency, version control, and collaboration
+  - Issues and integrated tasks
+    - Quality assurance checklist for accessibility standards
 
 
 Note: Materials hosted on GitHub, allowing individuals to further customize to their own needs if necessary. Utilizing markdown wherever possible ensures low barrier to entry for individuals wanting to improve accessibility of our materials. Support for Custom CSS not only allows us to customize presentation within tools, but also if helpful users can view our content through their own user style sheets.
@@ -68,7 +72,13 @@ Note: Not nearly enough time to go over all of these -- encourage to check out, 
 ---
 
 ### Unsolved Issues
-- Neither RStudio nor Jupyter Notebooks are fully accessible
-- Despite being text-based, command line interfaces are not inherently accessible ()
+- Neither RStudio nor Jupyter Notebooks are fully accessible (maybe also cite?)
+- Despite being text-based, command line interfaces are not inherently accessible (citation)
 
 Note: While there are teams currently working to improve the accessibility of both RStudio and Jupyter notebooks, neither are currently up to standards.
+
+---
+
+### Thank You
+Rose Franzen: franzenr@chop.edu
+Rose Hartman: hartmanr1@chop.edu
