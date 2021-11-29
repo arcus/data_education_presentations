@@ -17,6 +17,16 @@ Note: In the process of developing a self-paced, modular data science education 
 
 ---
 
+#### Inclusive Design
+Building to be as universally usable in default state without the need for additional adaptations or solutions
+
+#### Accessibility
+Beyond being technically possible to access the materials, reasonably feasible for an individual to engage with content without encountering inordinate burdens
+
+Note: within the context of our talk, this is what we mean. Not necessarily "formal" definitions
+Accessibility and inclusive design are tall orders. While we want to help correct the history of barriers that have kept interested individuals from learning about and participating in this community, we also acknowledge that we are outsiders to the field of accessibility. Our goal today is to share a bit of what we've done so far in hopes that it oculd help someone else looking to make inclusive materials, but also to learn from you. Please feel free to chime in the chat or during Q&A with suggestions.
+---
+
 #### Two Approaches
 
 - Static decisions
@@ -59,5 +69,6 @@ Note: Not nearly enough time to go over all of these -- encourage to check out, 
 
 ### Unsolved Issues
 - Neither RStudio nor Jupyter Notebooks are fully accessible
+- Despite being text-based, command line interfaces are not inherently accessible ()
 
 Note: While there are teams currently working to improve the accessibility of both RStudio and Jupyter notebooks, neither are currently up to standards.
