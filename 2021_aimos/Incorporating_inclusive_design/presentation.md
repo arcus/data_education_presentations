@@ -44,19 +44,41 @@ Wherever possible, we've built in flexibility. Accessibility is not a monolith, 
 ---
 
 ### Tools: Liascript
-- Liascript: a markdown-parser for creating courseware
-  - Integrated text-to-speech functionality
-  - Learner control over text size, colors, dark mode
-  - Custom CSS
+
+<div id="right">
+
+![Screenshot showing an Intro to Python course rendered using Liascript.](media/liascript.png)
+
+</div>
+
+<div id="left">
+
+[Liascript](https://liascript.github.io/): a markdown-parser for creating courses
+
+- Integrated text-to-speech functionality
+- Learner control over text size, colors, dark mode
+- Custom CSS
+- Open source
+
+</div>
+
 
 ---
 
 ### Tools: GitHub
 
-- GitHub: beyond transparency, version control, and collaboration
-  - Issues and integrated tasks
-    - Quality assurance checklist for accessibility standards
+<div id="right">
 
+![Screenshot showing github issue with a checklist for quality assurance, partially filled out.](media/github.png)
+
+</div>
+
+<div id="left">
+
+GitHub: beyond transparency, version control, and collaboration
+- Issues and integrated tasks
+  - Quality assurance checklist for accessibility standards
+</div>
 
 Note: Materials hosted on GitHub, allowing individuals to further customize to their own needs if necessary. Utilizing markdown wherever possible ensures low barrier to entry for individuals wanting to improve accessibility of our materials. Support for Custom CSS not only allows us to customize presentation within tools, but also if helpful users can view our content through their own user style sheets.
 
@@ -95,6 +117,25 @@ Rose Hartman: hartmanr1@chop.edu
 
 .small {
   font-size: 70%;
+}
+
+#left {
+    margin: 10px 0 15px 20px;
+    float: left;
+    text-align: center;
+    z-index:-10;
+    width:48%;
+    font-size: 70%;
+    line-height: 1.5;
+}
+#right {
+    margin: 10px 0 15px 0;
+    float: right;
+    text-align: center;
+    z-index:-10;
+    width:48%;
+    font-size: 70%;
+    line-height: 1.5;
 }
 
 </style>
