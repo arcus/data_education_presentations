@@ -11,20 +11,21 @@ revealOptions:
 ### Incorporating Inclusive Design into Open Education for Data Science
 #### Rose Franzen and Rose Hartman</br>
  Arcus Data Education, Department of Biomedical and Health Informatics, Children's Hospital of Philadelphia </br>
-![Logo of the Department of Biomedical and Health Informatics](media/DBHi-Logo-Color_RGB.jpg)
+<img src="media/DBHi-Logo-Color_RGB.jpg" alt="Logo of the Department of Biomedical and Health Informatics" width="500"/>
 
-Note: In the process of developing a self-paced, modular data science education program for biomedical researchers, we've kept accessibility at the front of our mind. Proactive vs reactive/retroactive a11y. At this point in our process, this is what that has looked like.
+
+
+Note: Hi everyone. My name is Rose Franzen and I'm excited for the opportunity to talk with you today about incorporating inclusive design into open education for data science, based upon our experience while developing a self-paced modular data science education program for biomedical researchers.
 
 ---
 
 #### Inclusive Design
 Building to be as universally usable in default state without the need for additional adaptations or solutions
 
-#### Accessible
-Reasonably feasible for an individual to engage with content without encountering inordinate burdens.
 
-Note: within the context of our talk, this is what we mean. Not necessarily "formal" definitions
-Accessibility and inclusive design are tall orders. While we want to help correct the history of barriers that have kept interested individuals from learning about and participating in this community, we also acknowledge that we are outsiders to the field of accessibility. Our goal today is to share a bit of what we've done so far in hopes that it oculd help someone else looking to make inclusive materials, but also to learn from you. Please feel free to chime in the chat or during Q&A with suggestions.
+
+Note: To provide some common ground, in the context of this talk, when we use the term “inclusive design”, what we’re referring to is the process of thoughtfully building something to be as universally usable in its default state from the beginning, rather than designing the content first and then retroactively attempting to apply adaptations or fixes in order to meet various accessibility needs.
+
 ---
 
 #### Two Approaches
@@ -37,9 +38,7 @@ Accessibility and inclusive design are tall orders. While we want to help correc
   - Allow learners to match to their personal needs and preferences
     - e.g., information provided in multiple different modalities
 
-Note: As we've considered accessibility throughout the development of our course, the choices we've made have fallen primarily into one of two categories.
-Static design choices are  baked directly into the content and structure of our program. Do not vary across learners. Only implemented in cases where they are unlikely to harm the experience for any learners. For instance, we avoid figures of speech and idioms in our text -- individuals for whom English is not their first language + autistic learners. This decision is unlikely to reduce the accessibility of the material for other groups.
-Wherever possible, we've built in flexibility. Accessibility is not a monolith, and the needs of one learner may conflict with the needs of another. (ex., spoken/auditory content for individuals with visual difficulties -- if switch to primarily utilizing auditory materials, now HoH folks encounter difficulties accessing content) Flexibility allows single source of content to meet needs of many. never provide information in a singular modality (e.g., there's always text to accompany auditory content, always audio descriptions to accompany visual content, etc.).
+Note: The design decisions we've made so far have been a combination of static and flexible. Static rules apply across the board to all of our content, such as never using idioms or figures of speech. We've also built in flexibility wherever possible to allow folks to customize their experiences to best match their own needs and preferences. For example, we never convey information in a single modality, and we provide a variety of methods for learning, including video tutorials, articles, and interactive coding exercises.
 
 ---
 
@@ -62,6 +61,7 @@ Wherever possible, we've built in flexibility. Accessibility is not a monolith, 
 
 </div>
 
+Note: On this slide, there is a screenshot of a course that has been rendered by Liascript, which is a markdown parser specifically designed for building courses. Liascript has been an important tool for us. There are a number of things about it that we love: It has integrated text-to-speech functionality There are built-in controls that let learners change things about the content display in order to make it more readable for them. And it makes it easy to use custom CSS, which we've taken advantage of to us tweak some of the liascript defaults which were inaccessible. It being a markdown parser is a huge advantage in terms of forward compatibility with accessibility tools we haven't thought to design for, or that may not even have been invented yet --- plain text files like markdown are highly portable and work well with a very wide range of software. On a related note, liascript is open source software, which is great not only because it lets us practice what we preach in terms of modeling open behaviors, it also leaves the door open for someone else to take our materials and adapt them in ways we haven't thought of.
 
 ---
 
@@ -80,7 +80,7 @@ GitHub: beyond transparency, version control, and collaboration
   - Quality assurance checklist for accessibility standards
 </div>
 
-Note: Materials hosted on GitHub, allowing individuals to further customize to their own needs if necessary. Utilizing markdown wherever possible ensures low barrier to entry for individuals wanting to improve accessibility of our materials. Support for Custom CSS not only allows us to customize presentation within tools, but also if helpful users can view our content through their own user style sheets.
+Note: In addition to the usual benefits of GitHub, we’ve also made great use of the GitHub Issues feature and its integrated Tasks functionality. We're using this to help us stick to our guidelines for all of the content we create. For each new module, we create a GH issue and copy-paste in the markdown checklist, which renders interactively for us to step through to make sure we're not falling short of our own standards. The screenshot on the slide shows an example GitHub issue with a partially filled out checklist. In the top left-hand corner of the screenshot, you can see one of my favorite features: the task completion counter. At the time we took this image, 7 out of 31 items on the checklist had been completed. The counter is automatically updated every time another item is checked off, providing an easy way to keep tabs on the progress of each module's quality assurance process.
 
 ---
 
@@ -98,19 +98,29 @@ Note: Materials hosted on GitHub, allowing individuals to further customize to t
 <li><a href="https://blindcomputing.org/">blind-computing</a></li>
 </ul>
 
-Note: Not nearly enough time to go over all of these -- encourage to check out, link to slides provided.
+Note: In determining the aforementioned guidelines, we've relied on a number of really great existing resources for inclusive design, as well as the advocacy and lived experience of a variety of accessibility advocates within STEM. We don't have time to go through these now, but our slides are available on GH, and we hope you'll go check these links out later.
+
 ---
 
 ### Unsolved Issues
-- Neither RStudio nor Jupyter Notebooks are fully accessible (maybe also cite?)
-- Despite being text-based, command line interfaces are not inherently accessible (citation)
+- Neither RStudio nor Jupyter Notebooks are fully accessible
+- Despite being text-based, command line interfaces are not inherently accessible <sup>[1]</sup><br>
+</br>
 
-Note: While there are teams currently working to improve the accessibility of both RStudio and Jupyter notebooks, neither are currently up to standards.
+
+
+
+<font size ="-1">[1]: Sampath, H., Merrick, A., & Macvean, A. (2021, May). Accessibility of Command Line Interfaces.  In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (pp. 1-10).</font>
+
+Note: Finally, I want to end with an important reality check -- while there is definitely a lot that can be done to improve inclusive design for data science education materials, there are also some very persistent barriers embedded within the field that are difficult to address. In particular, both RStudio and Jupyter notebooks, which are incredibly popular tools for data science, do not fully work with screen-readers or other accessibility software. In the end, our team decided to move forward with using these tools at least for now, in part because both tools are actively being worked on to improve accessibility. Additionally, we realized that not teaching such ubiquitous tools could introduce additional barriers to learners who may want to supplement with external instruction. Additionally, though it’s easy to assume that command line interfaces would be highly accessible as they are entirely text-based, individuals who use screen-readers report a variety of  accessibility issues. Unfortunately, we don’t have a good solution to any of these concerns yet -- this is to bring your awareness to existing barriers within the field, and to serve as a plea to keep advocating for improvements both in the things we build and the tools we use.
+
+
+
 
 ---
 
 ### Thank You
-Rose Franzen: franzenr@chop.edu
+Rose Franzen: franzenr@chop.edu  
 Rose Hartman: hartmanr1@chop.edu
 
 <style>
