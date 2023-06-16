@@ -1,6 +1,11 @@
 # Data Education Presentations
 Presentations for scholarship from the Data Education team's R25 grant work.
 
+Also see workshops and tutorials:
+
+- [R 101](https://github.com/pm0kjp/r-101-rmed-2023), presented at R/Med 2023
+- [Intro to Stats in R](https://github.com/arcus/intro_to_stats_in_r), presented to CHOPR 2021
+
 ## Installation instructions
 
 To use reveal.js and reveal-md, with the [reveal-a11y plugin](https://github.com/marcysutton/reveal-a11y).
